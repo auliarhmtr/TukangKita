@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUKANGKITA - Platform Digital Jasa Perbaikan Rumah</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="Images/Logo.png" alt="TUKANGKITA Logo" class="logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#cara-kerja">Cara Kerja</a></li>
+                    <li><a href="#keunggulan">Keunggulan</a></li>
+                    <li><a href="#tukang-hijau">Tukang Hijau</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Solusi Digital untuk Perbaikan Rumah Anda</h1>
+                <p>Hubungkan dengan tukang ahli atau mahasiswa teknik terlatih melalui platform digital yang efisien, transparan, dan terjangkau.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Pesan Layanan</a>
+                    <a href="#" class="btn btn-secondary">Unduh Aplikasi</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Images/MVP.png" alt="TUKANGKITA App Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Dual Expertise Section -->
+    <section id="dual-expertise" class="dual-expertise-section">
+        <div class="container">
+            <h2 class="section-title">Pilih Keahlian Sesuai Kebutuhan Anda</h2>
+            <div class="expertise-cards">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Tukang Expert</h3>
+                    <p>Tukang profesional berpengalaman untuk pekerjaan berskala besar dan kompleks.</p>
+                    <ul>
+                        <li>10+ tahun pengalaman</li>
+                        <li>Proyek besar & kompleks</li>
+                        <li>Garansi layanan premium</li>
+                        <li>Review terverifikasi</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Mahasiswa </h3>
+                    <p>Mahasiswa dari jurusan Arsitektur dan Teknik Sipil yang terlatih untuk pekerjaan ringan dengan harga ekonomis.</p>
+                    <ul>
+                        <li>Terlatih & tersertifikasi</li>
+                        <li>Pekerjaan ringan & sederhana</li>
+                        <li>Harga lebih terjangkau</li>
+                        <li>Mendukung pendidikan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="layanan-section">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <p class="section-subtitle">Berbagai layanan perbaikan dan renovasi rumah dengan kualitas terjamin</p>
+            
+            <div class="service-categories">
+                <div class="service-category active" data-category="all">Semua</div>
+                <div class="service-category" data-category="plumbing">Plumbing</div>
+                <div class="service-category" data-category="electrical">Listrik</div>
+                <div class="service-category" data-category="painting">Pengecatan</div>
+                <div class="service-category" data-category="carpentry">Perkayuan</div>
+                <div class="service-category" data-category="renovation">Renovasi</div>
+            </div>
+            
+            <div class="service-cards">
+                <div class="service-card" data-service="plumbing">
+                    <div class="service-icon">
+                        <i class="fas fa-faucet"></i>
+                    </div>
+                    <h3>Perbaikan Plumbing</h3>
+                    <p>Perbaikan saluran air, kran bocor, toilet, dan sistem plumbing rumah tangga.</p>
+                    <div class="price-range">
+                        <span>Mahasiswa: Rp150.000-250.000</span>
+                        <span>Expert: Rp300.000-400.000</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="electrical">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Listrik Rumah Tangga</h3>
+                    <p>Instalasi dan perbaikan listrik, lampu, stopkontak, dan MCB.</p>
+                    <div class="price-range">
+                        <span>Mahasiswa: Rp200.000-300.000</span>
+                        <span>Expert: Rp350.000-450.000</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="painting">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Pengecatan</h3>
+                    <p>Pengecatan interior dan eksterior dengan hasil profesional.</p>
+                    <div class="price-range">
+                        <span>Mahasiswa: Rp35.000-45.000/m²</span>
+                        <span>Expert: Rp50.000-60.000/m²</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="carpentry">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Perbaikan Kayu</h3>
+                    <p>Perbaikan furniture, pintu, jendela, dan struktur kayu lainnya.</p>
+                    <div class="price-range">
+                        <span>Mahasiswa: Rp200.000-350.000</span>
+                        <span>Expert: Rp400.000-600.000</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="renovation">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Renovasi Ringan</h3>
+                    <p>Renovasi skala kecil untuk kamar mandi, dapur, dan ruangan lainnya.</p>
+                    <div class="price-range">
+                        <span>Mahasiswa: Konsultasi</span>
+                        <span>Expert: Estimasi per proyek</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="renovation">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Renovasi Berat</h3>
+                    <p>Renovasi skala besar untuk rumah, apartemen, atau properti komersial.</p>
+                    <div class="price-range">
+                        <span>Expert: Estimasi per proyek</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cara Kerja Section -->
+    <section id="cara-kerja" class="cara-kerja-section">
+        <div class="container">
+            <h2 class="section-title">Bagaimana TUKANGKITA Bekerja</h2>
+            <div class="step-cards">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Pilih Layanan</h3>
+                    <p>Tentukan jenis layanan perbaikan rumah yang Anda butuhkan melalui aplikasi.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Pilih Keahlian</h3>
+                    <p>Pilih antara Tukang Expert atau Mahasiswa sesuai kebutuhan dan anggaran Anda.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Tentukan Jadwal</h3>
+                    <p>Pilih tanggal dan waktu yang paling sesuai dengan ketersediaan Anda.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Pekerjaan Dilakukan</h3>
+                    <p>Tukang akan datang tepat waktu dan menyelesaikan pekerjaan dengan profesional.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <div class="step-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Beri Rating & Review</h3>
+                    <p>Nilai kualitas layanan untuk membantu meningkatkan standar dan membantu pengguna lain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="keunggulan" class="keunggulan-section">
+        <div class="container">
+            <h2 class="section-title">Keunggulan TUKANGKITA</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Transparansi Harga</h3>
+                    <p>Harga jelas dan standar untuk setiap jenis pekerjaan tanpa biaya tersembunyi.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Jaminan Keamanan</h3>
+                    <p>Semua tukang melalui proses verifikasi ketat dan transaksi dilindungi oleh sistem pembayaran aman.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>Sistem rating dan review memastikan Anda mendapatkan layanan berkualitas tinggi.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Pemberdayaan Mahasiswa</h3>
+                    <p>Mendukung mahasiswa teknik mendapatkan pengalaman praktis dan penghasilan tambahan.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ramah Lingkungan</h3>
+                    <p>Program Tukang Hijau mempromosikan praktik perbaikan yang berkelanjutan.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Edukasi Pengguna</h3>
+                    <p>Akses konten edukasi tentang perawatan rumah dan perbaikan mandiri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tukang Hijau Section -->
+    <section id="tukang-hijau" class="tukang-hijau-section">
+        <div class="container">
+            <div class="green-content">
+                <h2 class="section-title">Program Tukang Hijau</h2>
+                <p>Komitmen kami terhadap lingkungan dan praktik perbaikan rumah yang berkelanjutan.</p>
+                <ul class="green-features">
+                    <li>
+                        <i class="fas fa-recycle"></i>
+                        <span>Pengelolaan limbah konstruksi yang bertanggung jawab</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-tree"></i>
+                        <span>Penggunaan material daur ulang dan ramah lingkungan</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Solusi hemat energi untuk rumah Anda</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-reader"></i>
+                        <span>Edukasi praktik renovasi berkelanjutan</span>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-green">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="green-image">
+                <img src="Images/Eco.jpeg" alt="Tukang Hijau Program">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="13000">0</h3>
+                    <p>Pengguna di DKI Jakarta</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="500">0</h3>
+                    <p>Tukang Expert Terdaftar</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="1200">0</h3>
+                    <p>Mahasiswa Terlatih</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="40">0</h3>
+                    <p>Target Pangsa Pasar 2027 (%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+      <div class="container">
+          <div class="section-header">
+              <h2>Apa Kata Mereka</h2>
+              <p>Pengalaman nyata dari pengguna TUKANGKITA</p>
+          </div>
+          <div class="testimonials-container">
+              <div class="testimonial-card">
+                  <div class="testimonial-image">
+                      <img src="Images/Budi.jpeg" alt="Budi Santoso">
+                  </div>
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <p>"Aplikasi TUKANGKITA sangat membantu saya menemukan tukang berkualitas dengan harga terjangkau. Proses booking sangat mudah dan transparan."</p>
+                      <h4>Budi Santoso</h4>
+                      <p class="testimonial-location">Jakarta Selatan</p>
+                  </div>
+              </div>
+              <div class="testimonial-card">
+                  <div class="testimonial-image">
+                      <img src="Images/Siti.jpg" alt="Siti Nurhaliza">
+                  </div>
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <p>"Saya memilih opsi tukang mahasiswa untuk pengecatan ruang tamu, hasilnya sangat memuaskan dengan biaya yang lebih terjangkau. Terima kasih TUKANGKITA!"</p>
+                      <h4>Siti Nurhaliza</h4>
+                      <p class="testimonial-location">Jakarta Timur</p>
+                  </div>
+              </div>
+              <div class="testimonial-card">
+                  <div class="testimonial-image">
+                      <img src="Images/Rudi.jpeg" alt="Rudi Hartono">
+                  </div>
+                  <div class="testimonial-content">
+                      <div class="testimonial-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <p>"Fitur Tukang Hijau sangat sesuai dengan prinsip saya yang peduli lingkungan. Tukang profesional dan ramah lingkungan, kombinasi sempurna!"</p>
+                      <h4>Rudi Hartono</h4>
+                      <p class="testimonial-location">Jakarta Barat</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Untuk Mengubah Cara Anda Memperbaiki Rumah?</h2>
+                <p>Unduh aplikasi TUKANGKITA sekarang dan dapatkan diskon 15% untuk pemesanan pertama Anda!</p>
+                <div class="app-buttons">
+                    <a href="#" class="app-button">
+                        <i class="fab fa-google-play"></i>
+                        <span>Google Play</span>
+                    </a>
+                    <a href="#" class="app-button">
+                        <i class="fab fa-apple"></i>
+                        <span>App Store</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak-section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Kampus A Universitas Trisakti. JL. Kyai Tapa No. 1 Grogol. Jakarta Barat, Indonesia.</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>+62 857-7413-0255</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@tukangkita.id</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="Images/Logo.png" alt="TUKANGKITA Logo" class="footer-logo">
+                    <p>TUKANGKITA adalah platform digital revolusioner yang menghubungkan pemilik rumah dengan jasa perbaikan rumah secara efisien, transparan, dan terjangkau.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#cara-kerja">Cara Kerja</a></li>
+                        <li><a href="#keunggulan">Keunggulan</a></li>
+                        <li><a href="#tukang-hijau">Tukang Hijau</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#layanan">Perbaikan Plumbing</a></li>
+                        <li><a href="#layanan">Listrik Rumah Tangga</a></li>
+                        <li><a href="#layanan">Pengecatan</a></li>
+                        <li><a href="#layanan">Perbaikan Kayu</a></li>
+                        <li><a href="#layanan">Renovasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Berlangganan Newsletter</h3>
+                    <p>Dapatkan update terbaru dan penawaran spesial dari TUKANGKITA.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TUKANGKITA. Hak Cipta Dilindungi.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#cara-kerja">Cara Kerja</a></li>
+            <li><a href="#keunggulan">Keunggulan</a></li>
+            <li><a href="#tukang-hijau">Tukang Hijau</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
